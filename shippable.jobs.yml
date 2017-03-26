@@ -3,7 +3,7 @@ jobs:
     type: runSh
     steps:
       - IN: skylark_aws
-      - IN: docspipe_repo
+      - IN: docspipe_gitrepo
         switch: off
       - TASK:
         - script: IN/docspipe_repo/gitRepo/test.sh
