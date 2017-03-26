@@ -2,3 +2,7 @@ resources:
   - name: skylark_aws
     type: integration
     integration: skylark-aws
+    
+  - name: docspipe_gitrepo
+    type: gitRepo
+    integration: github
