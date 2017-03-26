@@ -6,3 +6,6 @@ resources:
   - name: docspipe_gitrepo
     type: gitRepo
     integration: github
+    pointer:
+      sourceName: "skylark05-test/docspipe"
+      branch: master
