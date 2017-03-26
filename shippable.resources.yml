@@ -9,3 +9,11 @@ resources:
     pointer:
       sourceName: "skylark05-test/docspipe"
       branch: master
+      
+  - name: docs_params
+    type: params
+    version:
+      params:
+        AWS_S3_REGION: "us-east-1"
+        AWS_S3_BUCKET: "s3://foo"
+        AWS_S3_LOCAL_PATH: "site"
