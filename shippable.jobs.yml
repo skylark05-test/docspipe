@@ -6,7 +6,7 @@ jobs:
       - IN: docspipe_gitrepo
         switch: off
       - TASK:
-        - script: IN/docspipe_repo/gitRepo/test.sh
+        - script: IN/docspipe_gitrepo/gitRepo/test.sh
     on_success:
       - script: echo 'SUCCESS!'
     on_failure:
