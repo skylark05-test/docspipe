@@ -1,0 +1,13 @@
+jobs:
+  - name: test_aws
+    type: runSh
+    steps:
+      - IN: skylark_aws
+      - IN: docspipe_repo
+        switch: off
+      - TASK:
+        - script: IN/docspipe_repo/gitRepo/test.sh
+    on_success:
+      - script: echo 'SUCCESS!'
+    on_failure:
+      - script: echo 'FAILURE!'
