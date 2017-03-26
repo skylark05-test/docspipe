@@ -1,0 +1,4 @@
+resources:
+  - name: skylark_aws
+    type: integration
+    integration: skylark-aws
